@@ -1,0 +1,120 @@
+/* Estilo principal inspirado en tema futurista / tecnológico */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #111, #0d1b2a);
+    border-bottom: 2px solid #1bc5f6;
+}
+
+.titulo {
+    font-size: 3rem;
+    color: #1bc5f6;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.menu {
+    margin-top: 1.5rem;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: #1bc5f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #04d9ff;
+}
+
+/* SECCIONES */
+.seccion {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1bc5f6;
+    border-left: 4px solid #1bc5f6;
+    padding-left: 10px;
+}
+
+/* TARJETAS */
+.card {
+    background-color: #111;
+    border: 1px solid #1bc5f6;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 0px 15px rgba(27, 197, 246, 0.2);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #04d9ff;
+}
+
+.card p {
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 15px;
+    background-color: #1bc5f6;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #04d9ff;
+}
+
+/* FORMULARIO */
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+.formulario textarea {
+    height: 120px;
+}
+
+.formulario button {
+    width: 100%;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    color: #1bc5f6;
+    border-top: 1px solid #1bc5f6;
+}
